@@ -92,3 +92,13 @@ non_us_some <- all_wars_matrix[1:2,2]
 
 # Average non-US revenue for first two movies
 mean(non_us_some)
+
+# Arithmetic with matrices
+# all_wars_matrix is available in your workspace
+all_wars_matrix
+
+# Estimate the visitors
+visitors <- all_wars_matrix/5
+
+# Print the estimate to the console
+visitors
